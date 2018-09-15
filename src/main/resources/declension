@@ -1,0 +1,119 @@
+M,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(ski|cki|dzki)$, ,ego,emu,ego,m,m, 
+K,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(ski|cki|dzki)$,a,iej,iej,ą,ą,iej,a
+P,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(ski|cki|dzki)$,cy,kich,kim,kich,kimi,kich,cy
+K,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[^ayi]$, , , , , , , 
+M,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(a|i|o|ó|ą|ę|u|y)k$, ,a,owi,a,iem,u,u
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+iek$,iek,ka,kowi,ka,kiem,ku,ku
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ieł$,ieł,ła,łowi,ła,łem,le,le
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+iel$,el,ela,elowi,ela,elem,elu,elu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+el$,el,la,lowi,la,lem,lu,lu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ek$,ek,ka,kowi,ka,kiem,ku,ku
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+eł$,eł,ła,łowi,ła,łem,le,le
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-df-zżźćńłęąś]ł$,ł,ła,łowi,ła,łem,le,le
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ół$,ół,oła,ołowi,oła,ołem,ole,ole
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńłęąś]r$, ,a,owi,a,em,ze,ze
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ór$,ór,ora,orowi,ora,orem,orze,orze
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńłęąś]([cghjl]|sz|cz|ch|dż|rz|dz|żdż)$, ,a,owi,a,em,u,u
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ó([chjl]|sz|cz|ch|dż|rz|dz|żdż)$, ,a,owi,a,em,u,u
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+óg$,óg,oga,ogowi,oga,ogem,ogu,ogu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ób$,ób,oba,obowi,oba,obem,obu,obu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńłęąś][bfmnpswz]$, ,a,owi,a,em,ie,ie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ó[bfmnpsw]$, ,a,owi,a,em,ie,ie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+óz$,óz,oza,ozowi,oza,ozem,ozie,ozie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[ąęaeiouyó]d$, ,a,owi,a,em,zie,zie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]t$,t,ta,towi,ta,tem,cie,cie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś](dź|ź|źdź)$,ź,zia,ziowi,zia,ziem,ziu,ziu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ś$,ś,sia,siowi,sia,siem,siu,siu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ń$,ń,nia,niowi,nia,niem,niu,niu
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ć$,ć,cia,ciowi,cia,ciem,ciu,ciu
+P,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(a|i|o|ó|ą|ę|u|y)k$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i?ek$,kowie,ków,kom,ków,kami,kach,kowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i?eł$,łowie,łów,łom,łów,łami,łach,łowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i?el$,elowie,elów,elom,elów,elami,elach,elowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-df-zżźćńłęąś]([cghjlłr]|sz|cz|ch|dż|rz|dz|żdż)$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ół$,ołowie,ołów,ołom,ołów,ołami,ołach,ołowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ór$,orowie,orów,orom,orów,orami,orach,orowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ó([chjl]|sz|cz|ch|dż|rz|dz|żdż)$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+óg$,ogowie,ogów,ogom,ogów,ogami,ogach,ogowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ób$,obowie,obów,obom,obów,obami,obach,obowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńłęąś][bfmnpswz]$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ó[bfmnpsw]$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+óz$,ozowie,ozów,ozom,ozów,ozami,ozach,ozowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[ąęaeiouyó]d$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]t$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś](dź|ź|źdź)$,ziowie,ziów,ziom,ziów,ziami,ziach,ziowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ś$,siowie,siów,siom,siów,siami,siach,siowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ń$,niowie,niów,niom,niów,niami,niach,niowie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[a-zżźćńółęąś]ć$,ciowie,ciów,ciom,ciów,ciami,ciach,ciowie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+([bdcprstwz]|cz)y$,y,ego,emu,ego,ym,ym,y
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[bdlłmnrswz]y$,a,ej,ej,ą,ą,ej,a
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(c|cz|f|g|j|k|p|t)y$,y,y,y,y,y,y,y
+M,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[fgk]y$,y,iego,iemu,iego,im,im,y
+P,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[fg]y$,iowie,iów,iom,iów,iami,iach,iowie
+P,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(cz|c|h|ch|j|k|l|p|z)y$,owie,ów,om,ów,ami,ach,owie
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[bmnsw]y$,i,ych,ym,ych,ymi,ych,i
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+dy$,dzi,dych,dym,dych,dymi,dych,dzi
+M,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[hżjlłmn]y$,y,ego,emu,ego,ym,ym,y
+K,^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[hż]y$,a,ej,ej,ą,ą,ej,a
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ły$,li,łych,łym,łych,łymi,łych,li
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ży$,zi,żych,żym,żych,żymi,żych,zi
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ry$,zy,ych,ym,ych,ymi,ych,zy
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ty$,ci,tych,tym,tych,tymi,tych,ci
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+u$,u,ego,emu,ego,ym,ym,u
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[uoe]$,owie,ów,om,ów,ami,ach,owie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(c|dż|cz|sz|rz|dz|ż)a$,a,y,y,ę,ą,y,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+cha$,cha,chy,sze,chę,chą,sze,cho
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ha$,ha,hy,sze,hę,hą,sze,ho
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[bfmnpswz]a$,a,y,ie,ę,ą,ie,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+da$,a,y,zie,ę,ą,zie,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ga$,ga,gi,dze,gę,gą,dze,go
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ja$,ja,i,i,ję,ją,i,jo
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ka$,ka,ki,ce,kę,ką,ce,ko
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+la$,a,i,i,ę,ą,i,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ła$,ła,ły,le,łę,łą,le,ło
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ra$,ra,ry,rze,rę,rą,rze,ro
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ta$,ta,ty,cie,tę,tą,cie,to
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+(c|dż|cz|sz|rz|dz|ż)a$,a,y,y,ę,ą,y,o
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+cha$,cha,chy,sze,chę,chą,sze,cho
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ha$,ha,hy,sze,hę,hą,sze,ho
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[bfmnpswz]a$,a,y,ie,ę,ą,ie,o
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+da$,a,y,zie,ę,ą,zie,o
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ga$,ga,gi,dze,gę,gą,dze,go
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ja$,ja,i,i,ję,ją,i,jo
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ka$,ka,ki,ce,kę,ką,ce,ko
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+la$,a,i,i,ę,ą,i,o
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ła$,ła,ły,le,łę,łą,le,ło
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ra$,ra,ry,rze,rę,rą,rze,ro
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ta$,ta,ty,cie,tę,tą,cie,to
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+a$,owie,ów,om,ów,ami,ach,owie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ko$,ko,ki,ce,kę,ką,ce,ko
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ro$,ro,ry,rze,rę,rą,rze,ro
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+to$,to,ty,cie,tę,tą,cie,to
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+do$,o,y,zie,ę,ą,zie,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+go$,go,gi,dzie,gę,gą,dzie,go
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ło$,ło,ła,łu,ło,łem,le,ło
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ho$,ho,ha,sze,hę,hą,sze,ho
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+o$,owie,ów,om,ów,ami,ach,owie
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+o$,o,y,ie,ę,ą,ie,o
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+e$, ,go,mu,go,m,m, 
+M,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i$, ,ego,emu,ego,m,m, 
+K,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i$,a,iej,iej,ą,ą,iej,a
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+ki$,cy,kich,kim,kich,kimi,kich,cy
+P,^[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+i$,a,iej,iej,ą,ą,iej,a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

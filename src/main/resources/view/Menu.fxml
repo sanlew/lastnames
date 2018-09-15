@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.lastnames.controller.MenuController">
+   <children>
+      <SplitPane dividerPositions="0.35772357723577236" layoutX="-12.0" layoutY="-10.0" orientation="VERTICAL" prefHeight="497.0" prefWidth="716.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="170.0" prefWidth="737.0">
+               <children>
+                  <Label layoutX="141.0" layoutY="56.0" prefHeight="34.0" prefWidth="95.0" text="Nazwisko:" />
+                  <Button fx:id="ok" layoutX="311.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="34.0" prefWidth="137.0" text="OK" />
+                  <TextField fx:id="lastname" layoutX="223.0" layoutY="61.0" prefHeight="26.0" prefWidth="203.0" />
+                  <VBox layoutX="489.0" layoutY="37.0" prefHeight="79.0" prefWidth="246.0">
+                     <children>
+                  <RadioButton fx:id="man" mnemonicParsing="false" selected="true" text="Mężczyzna">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="myToggleGroup" />
+                           </toggleGroup></RadioButton>
+                  <RadioButton fx:id="woman" mnemonicParsing="false" prefHeight="35.0" prefWidth="113.0" text="Kobieta" toggleGroup="$myToggleGroup" />
+                  <RadioButton fx:id="plural" mnemonicParsing="false" text="Liczba mnoga" toggleGroup="$myToggleGroup" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="343.0" prefWidth="691.0">
+               <children>
+                  <GridPane layoutX="67.0" layoutY="28.0" prefHeight="242.0" prefWidth="595.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="220.0" minWidth="10.0" prefWidth="160.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="256.0" minWidth="10.0" prefWidth="220.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="219.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label prefHeight="32.0" prefWidth="107.0" text="Mianownik" GridPane.rowIndex="1" />
+                        <Label prefHeight="34.0" prefWidth="121.0" text="Dopełniacz" GridPane.rowIndex="2" />
+                        <Label prefHeight="34.0" prefWidth="121.0" text="Celownik" GridPane.rowIndex="3" />
+                        <Label prefHeight="34.0" prefWidth="121.0" text="Biernik" GridPane.rowIndex="4" />
+                        <Label prefHeight="32.0" prefWidth="120.0" text="Narzędnik" GridPane.rowIndex="5" />
+                        <Label text="Miejscownik" GridPane.rowIndex="6" />
+                        <Label text="Wołacz" GridPane.rowIndex="7" />
+                        <Label text="kto?" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="kogo nie ma?" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="komu się przyglądam?" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="kogo widzę?" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="z kim idę?" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label text="o kim mówię?" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label GridPane.rowIndex="2" />
+                        <Label text="o!" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label fx:id="nom" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label fx:id="gen" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Label fx:id="dat" text="" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Label fx:id="acc" text="" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Label fx:id="ins" text="" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                        <Label fx:id="loc" text="" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                        <Label fx:id="voc" text="" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                        <Label text="Przypadek" />
+                        <Label text="Pytanie pomocnicze" GridPane.columnIndex="1" />
+                        <Label text="Odmiana" GridPane.columnIndex="2" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
